@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render the component 1`] = `
+<div>
+  <div
+    class="filter-category"
+  >
+    <button
+      class="button"
+      data-testid="category-all"
+      disabled=""
+    >
+      All
+    </button>
+    <button
+      class="button"
+      data-testid="category-decoupled-drupal"
+    >
+      Decoupled Drupal
+    </button>
+    <button
+      class="button"
+      data-testid="category-javascript-and-jamstack"
+    >
+      JavaScript and JAMstack
+    </button>
+  </div>
+</div>
+`;

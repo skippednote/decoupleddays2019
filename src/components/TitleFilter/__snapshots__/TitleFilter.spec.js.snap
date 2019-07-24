@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render the component 1`] = `
+<div>
+  <div
+    class="filter-title"
+  >
+    <input
+      class="filter-title"
+      data-testid="filter-input"
+      placeholder="Filter by title"
+      type="text"
+    />
+  </div>
+</div>
+`;

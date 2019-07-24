@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+header {
+  width: 30%;
+}
+
+main {
+  width: 70%;
+}
+
+.navigation {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+.navigation a {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+.navigation a:hover {
+  background: #3399ff3d;
+}
+
+.navigation svg {
+  margin-right: 1rem;
+  font-size: 1.75rem;
+}
+
+.button,
+i {
+  text-decoration: none;
+  color: black;
+  border: none;
+  background: none;
+  font-size: 1.125rem;
+  padding: 14px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button:hover,
+i:hover {
+  background: #3399ff3d;
+}
+
+.navigation .active {
+  color: #39f;
+}
+
+input {
+  border: 1px solid #39f;
+  height: 22px;
+  padding: 10px;
+  border-radius: 4px;
+  height: 45px;
+}
+.filter-button svg {
+  margin-right: 2rem;
+}
+
+.filter {
+  font-size: 1.125rem;
+}
+
+.filter svg {
+  font-size: 1.75rem;
+}
+
+.filters {
+  background: #f3f3f3;
+  padding: 10px;
+}
+
+.session-item {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid;
+}
+
+.session-title {
+  margin-bottom: 0;
+}
+
+.session-title a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.session-length {
+  color: grey;
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+.session-meta {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.spacer {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.session-speakers {
+  padding-left: 0;
+  list-style: none;
+}
+
+.session-body {
+  line-height: 1.7;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form input,
+form select {
+  width: 100%;
+}
+
+select {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  margin-bottom: 40px;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-wrapper .form-item {
+  width: 45%;
+}
+
+.button:disabled {
+  opacity: 0.3;
+}
+
+.message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: #39f;
+  color: white;
+  z-index: 1;
+}
+
+input, select {
+  font-size: 1rem;
+}

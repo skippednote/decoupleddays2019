@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render the component 1`] = `
+<div>
+  <div
+    class="filter-date"
+  >
+    <button
+      class="button"
+      data-testid="date-All"
+      disabled=""
+    >
+      All
+    </button>
+    <button
+      class="button"
+      data-testid="date-09"
+    >
+      09
+    </button>
+    <button
+      class="button"
+      data-testid="date-10"
+    >
+      10
+    </button>
+    <button
+      class="button"
+      data-testid="date-31"
+    >
+      31
+    </button>
+    <button
+      class="button"
+      data-testid="date-17"
+    >
+      17
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<div>
+  <div
+    data-testid="session-item"
+  >
+    <h4
+      class="session-title"
+      data-testid="session-title"
+    >
+      <a
+        href="/017a6b73-fdcb-473f-aa49-8ae0073ab076"
+      >
+        a
+      </a>
+      <span
+        class="session-length"
+      >
+        25
+         minutes
+      </span>
+    </h4>
+    <div
+      class="session-meta"
+    >
+      <p
+        class="session-room"
+        data-testid="session-room"
+      >
+        room1
+      </p>
+      <span
+        class="spacer"
+      >
+        •
+      </span>
+      <p
+        class="session-date"
+        data-testid="session-date"
+      >
+        2019-07-09T00:01:00+00:00
+      </p>
+      <span
+        class="spacer"
+      >
+        •
+      </span>
+      <p
+        class="session-category"
+        data-testid="session-category"
+      >
+        Decoupled Drupal
+      </p>
+    </div>
+    <p
+      class="session-body"
+    >
+      <p>
+        Hello body
+      </p>
+      
+
+    </p>
+    <hr />
+    <ul
+      class="session-speakers"
+      data-testid="session-speakers"
+    >
+      <li>
+        <p>
+          Bassam Ismail
+           
+          (Axelerant)
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
